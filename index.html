@@ -1,7 +1,288 @@
 <!DOCTYPE html>
-<html>
+<!-- Portfolio-Webseite von Lukas Verwiebe -->
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Persönliche Portfolio-Webseite</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.3.0/css/all.css">
+    <script src="https://code.jquery.com/jquery-3.6.3.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"/>
+
+</head>
+
 <body>
-<h1>Hello World</h1>
-<p>I'm hosted with GitHub Pages. Test</p>
+    <div class="scroll-up-btn">
+        <i class="fas fa-angle-up"></i>
+    </div>
+    <nav class="navbar">
+        <div class="max-width">
+            <div class="logo"><a href="#">Portfo<span>lio.</span></a></div>
+            <ul class="menu">
+                <li><a href="#start" class="menu-btn">Start</a></li>
+                <li><a href="#about" class="menu-btn">Über mich</a></li>
+                <li><a href="#education" class="menu-btn">Ausbildung</a></li>
+                <li><a href="#skills" class="menu-btn">Fähigkeiten</a></li>
+                <li><a href="#projekte" class="menu-btn">Projekte</a></li>
+                <li><a href="#contact" class="menu-btn">Kontakt</a></li>
+            </ul>
+            <div class="menu-btn">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Start Abschnitt -->
+    <section class="start" id="start">
+        <div class="max-width">
+            <div class="start-content">
+                <div class="text-1">Hallo, mein Name ist</div><br>
+                <div class="text-2">Lukas Verwiebe</div><br>
+                <div class="text-3">Und ich bin <span class="typing"></span></div><br>
+                <a href="#contact">Kontaktdaten</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Über mich Abschnitt -->
+    <section class="about" id="about">
+        <div class="max-width">
+            <h2 class="title">Über mich</h2>
+            <div class="about-content">
+                <div class="column left">
+                    <img src="images/profil.png" alt="">
+                </div>
+                <div class="column right">
+                    <div class="text">Ich bin Lukas Verwiebe und ich bin <span class="typing-2"></span></div>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam vitae tempora quae, doloribus alias obcaecati! Ea commodi quasi reiciendis eius, eligendi nihil consequatur! Asperiores expedita quidem ad saepe minus laudantium nostrum ex tempore aspernatur est quasi quia mollitia quo deleniti libero commodi, alias excepturi voluptatibus perspiciatis dicta neque iste? Qui assumenda quo delectus maxime nam sapiente, explicabo dolorum fuga consequatur!</p>
+                    <a href="dokumente/Lebenslauf.pdf" target="_blank">Lebenslauf</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Ausbildung Abschnitt -->
+    <section class="education" id="education">
+        <div class="max-width">
+            <h2 class="title">Meine Ausbildung</h2>
+            <div class="education-content">
+                <div class="card">
+                    <a href="bildung.html" target="_blank">
+                    <div class="box">
+                        <i class="fas fa-solid fa-school"></i>
+                        <div class="text">Schule</div>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit explicabo amet, facilis similique nostrum deserunt.</p>
+                    </div>
+                    </a>
+                </div>
+
+                <div class="card">
+                    <a href="bildung.html" target="_blank">
+                    <div class="box">
+                        <i class="fa-solid fa-laptop-file"></i>
+                        <div class="text">Ausbildung</div>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit explicabo amet, facilis similique nostrum deserunt.</p>
+                    </div>
+                    </a>
+                </div>
+
+                <div class="card">
+                    <a href="bildung.html" target="_blank">
+                    <div class="box">
+                        <i class="fas fa-sharp fa-solid fa-graduation-cap"></i>
+                        <div class="text">Studium</div>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit explicabo amet, facilis similique nostrum deserunt.</p>
+                    </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Fähigkeiten Abschnitt -->
+    <section class="skills" id="skills">
+        <div class="max-width">
+            <h2 class="title">Meine Fähigkeiten</h2>
+            <div class="skills-content">
+                <div class="column left">
+                    <div class="text">Meine Fähigkeiten & Erfahrungen</div>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt ad ea, incidunt tempore mollitia fugit dolore eveniet blanditiis iusto voluptatem harum, aspernatur iste et recusandae. Ipsam, minima vero. Aspernatur enim optio hic, ipsam veniam molestias. A rem quaerat delectus, numquam mollitia quisquam in atque quod et distinctio necessitatibus ea minus quam nulla ab, quos nesciunt ad nostrum ullam non sapiente!</p>                    
+                    <a href="skills.html">Mehr</a>
+                </div>
+
+                <div class="column right">
+                    <div class="bars">
+                        <div class="info">
+                            <span>HTML</span>
+                            <span>90%</span>
+                        </div>
+                        <div class="line html"></div>
+                    </div>
+                    <div class="bars">
+                        <div class="info">
+                            <span>CSS</span>
+                            <span>60%</span>
+                        </div>
+                        <div class="line css"></div>
+                    </div>
+                    <div class="bars">
+                        <div class="info">
+                            <span>JavaScript</span>
+                            <span>80%</span>
+                        </div>
+                        <div class="line js"></div>
+                    </div>
+                    <div class="bars">
+                        <div class="info">
+                            <span>PHP</span>
+                            <span>50%</span>
+                        </div>
+                        <div class="line php"></div>
+                    </div>
+                    <div class="bars">
+                        <div class="info">
+                            <span>MySQL</span>
+                            <span>70%</span>
+                        </div>
+                        <div class="line mysql"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projekte Abschnitt -->
+    <section class="projekte" id="projekte">
+        <div class="max-width">
+            <h2 class="title">Meine Projekte</h2>
+            <div class="carousel owl-carousel">
+                <div class="card">
+                    <a href="https://github.com/LukasVerwiebe/Bildbearbeitung" target="_blank">
+                    <div class="box">
+                        <img src="images/github.png" alt="">
+                        <div class="text">Bildbearbeitung</div>
+                        <p>Ein einfacher Editor mit dem Bilder Bearbeitet werden können. Das Programm wurde mit HTML, CSS und JavaScript erstellt.</p>                        
+                    </div> 
+                    </a>                   
+                </div>
+
+                <div class="card">
+                    <a href="https://github.com/LukasVerwiebe/LukasVerwiebe.github.io" target="_blank">
+                    <div class="box">
+                        <img src="images/github.png" alt="">
+                        <div class="text">Portfolio-Webseite</div>
+                        <p>Eine Portfolio-Webseite zur Vorstellung der eigenen Erfahrungen und Fähigkeiten. Erstellt mit HTML, CSS und JavaScript.</p>
+                    </div>
+                    </a>                  
+                </div>
+
+                <div class="card">
+                    <a href="#" target="_blank">
+                    <div class="box">
+                        <img src="images/github.png" alt="">
+                        <div class="text">Projektname-3</div>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    </div>
+                    </a>                   
+                </div>
+
+                <div class="card">
+                    <a href="#" target="_blank">
+                    <div class="box">
+                        <img src="images/github.png" alt="">
+                        <div class="text">Projektname-4</div>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    </div>
+                    </a>                  
+                </div>
+
+                <div class="card">
+                    <a href="#" target="_blank">
+                    <div class="box">
+                        <img src="images/github.png" alt="">
+                        <div class="text">Projektname-5</div>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    </div>
+                    </a>                    
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--- Kontakt Abschnitt -->
+    <section class="contact" id="contact">
+        <div class="max-width">
+            <h2 class="title">Kontakt</h2>
+            <div class="contact-content">
+                <div class="column left">
+                    <div class="text">Kontaktieren Sie mich</div>
+                    <p>Habe Sie eine Anfrage oder interesse an einer Zusammenarbeit? Dann füllen Sie die
+                        aufgeführten Kontaktinformationen aus und teilen Sie mir ihre
+                        Anfrage mit. </p>
+                    <div class="icons">
+                        <div class="row">
+                            <i class="fas fa-user"></i>
+                            <div class="info">
+                                <div class="head">Name</div>
+                                <div class="sub-title">Lukas Verwiebe</div>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <div class="info">
+                                <div class="head">Address</div>
+                                <div class="sub-title">Recklinghausen, Deutschland</div>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <i class="fas fa-envelope"></i>
+                            <div class="info">
+                                <div class="head">Email</div>
+                                <div class="sub-title">lukas.verwiebe@web.de</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="column right">
+                    <div class="text">Schreiben Sie mir</div>
+                    <form action="mailto:lukas.verwiebe@web.de" method="GET">
+                        <div class="fields">
+                            <div class="field name">
+                                <input type="text" placeholder="Name" name="body" required>
+                            </div>
+                            <div class="field email">
+                                <input type="email" placeholder="Email" name="body" required>                                
+                            </div>
+                            <input type="text" name="body" value="-----" hidden=true>
+                        </div>
+                        <div class="field">
+                            <input type="text" name="subject" placeholder="Betreff" required>
+                        </div>
+                        <div class="field textarea">
+                            <textarea cols="30" rows="10" placeholder="Beschreibung..." name="body" required></textarea>
+                        </div>
+                        <div class="button">
+                            <button type="submit">Nachricht Senden</button>
+                        </div>                        
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Fußzeile -->
+    <footer>
+        <span>Erstellt von <a href="https://github.com/LukasVerwiebe" target="_blank">Lukas Verwiebe</a> | <span class="far fa-copyright"></span> 2023 All rights reserved.</span>
+    </footer>
+
+    <script src="script.js"></script>
+
 </body>
+
 </html>
