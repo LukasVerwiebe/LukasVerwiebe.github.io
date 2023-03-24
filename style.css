@@ -599,7 +599,6 @@ footer span a:hover{
     background: #111;
 }
 .bildung .title::after{
-    content: "Schulbildung";
     background: #fff;
 }
 .bildung .bildung-content .card{
@@ -638,9 +637,6 @@ footer span a:hover{
 }
 
 /* Ausbildung Section */
-.ausbildung .title::after{
-    content: "Meine Erfahrung";
-}
 .ausbildung .ausbildung-content .left .text{
     font-size: 20px;
     font-weight: 600;
