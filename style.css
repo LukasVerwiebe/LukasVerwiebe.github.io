@@ -465,9 +465,6 @@ section .title::after{
 }
 
 /* Kontakt section */
-.contact .title::after{
-    content: "Kontaktdaten";
-}
 .contact .contact-content .column{
     width: calc(50% - 30px);
 }
