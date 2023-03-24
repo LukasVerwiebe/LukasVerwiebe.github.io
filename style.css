@@ -241,9 +241,6 @@ section .title::after{
 } 
 
 /* Über mich Section*/
-.about .title::after{
-    content: "Wer bin Ich";
-}
 .about .about-content .left{
     width: 45%;
 }
@@ -332,9 +329,6 @@ section .title::after{
 }
 
 /* Fähigkeiten section */
-.skills .title::after{
-    content: "Was ich kann";
-}
 .skills .skills-content .column{
     width: calc(50% - 30px);
 }
