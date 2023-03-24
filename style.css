@@ -196,14 +196,15 @@ html{
 section{
     padding: 100px 0;
 }
-.about, .education, .skills, .projekte, .contact, footer{
+.about, .education, .skills, .projekte, .contact, .bildung, .ausbildung, footer{
     font-family: 'Poppins', sans-serif;
 }
 .about .about-content, 
 .education .education-content,
 .skills .skills-content,
 .contact .contact-content,
-.bildung .bildung-content{
+.bildung .bildung-content,
+.ausbildung, .ausbildung-content{
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -579,7 +580,7 @@ footer span a:hover{
 /* Seite Ausbildung */
 
 
-/* Bildung Section */
+/* Bildung-Start Section */
 .bildung-start {
     display: flex;
     background: url("images/schwarzer-hintergrund.jpg") no-repeat center;
@@ -611,14 +612,14 @@ footer span a:hover{
     background: #fff;
 }
 .bildung .bildung-content .card{
-    width: calc(53% - 10px);
-    height: 250px;
+    width: calc(50% - 15px);
+    height: 350px;
     background: #fff;
     text-align: left;
     border-radius: 6px;
     border: 3px solid #111;
     padding: 20px 25px;
-    margin-bottom: 50px;
+    margin-bottom: 30px;
 }
 .bildung .bildung-content .card .box{   
     color: #111;
@@ -628,10 +629,61 @@ footer span a:hover{
     color: crimson;
 }
 .bildung .bildung-content .card .text{
+    font-size: 22px;
+    font-weight: 500;
+    margin: 10px 0 7px 0;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+.bildung .bildung-content .card .text-jahr{
+    background-color: #3457D5;
+    color: #fff;
     font-size: 25px;
     font-weight: 500;
     margin: 10px 0 7px 0;
+    padding: 10px 25px;
+    width: 50%;
+    border-radius: 6px;
 }
+
+/* Ausbildung Section */
+.ausbildung .title::after{
+    content: "Meine Erfahrung";
+}
+.ausbildung .ausbildung-content .left .text{
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+.ausbildung .ausbildung-content .left p{
+    text-align: justify;
+}
+.ausbildung .ausbildung-content .left span{
+    font-weight: 600;
+}
+.ausbildung .ausbildung-content .left p{
+    padding-bottom: 5px;
+}
+.ausbildung .ausbildung-content .left a{
+    display: inline-block;
+    background: crimson;
+    color: #fff;
+    font-size: 18px;
+    padding: 8px 16px;
+    margin-top: 20px;
+    border-radius: 6px;
+    border: 2px solid crimson;
+    transition: all 0.3s ease;
+    font-weight: 500;
+}
+.ausbildung .ausbildung-content .left a:hover{
+    color: crimson;
+    background: none;
+}
+
+
+
+
 
 
 
