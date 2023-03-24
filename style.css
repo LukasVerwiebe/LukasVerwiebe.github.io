@@ -66,7 +66,7 @@ html{
 
 /* Navigationsbalken bildung */
 .navbar-new{
-    background: #111;
+    /*background: #111;*/
     position: fixed;
     width: 100%;
     padding: 30px 0;
@@ -202,7 +202,8 @@ section{
 .about .about-content, 
 .education .education-content,
 .skills .skills-content,
-.contact .contact-content{
+.contact .contact-content,
+.bildung .bildung-content{
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -514,7 +515,7 @@ section .title::after{
     margin-bottom: 15px;
 }
 .contact .right form .textarea{
-    height: 80px;
+    height: 150px;
     width: 100%;
 }
 .contact .right form .name{
@@ -574,6 +575,63 @@ footer span a:hover{
 }
 
 
+
+/* Seite Ausbildung */
+
+
+/* Bildung Section */
+.bildung-start {
+    display: flex;
+    background: url("images/schwarzer-hintergrund.jpg") no-repeat center;
+    height: 60vh;
+    background-size: cover;
+    background-attachment: fixed;
+    color: #fff;
+    min-height: 500px;
+    font-family: 'Ubuntu', sans-serif;
+}
+.bildung-start .title::before{
+    background: #fff;
+}
+.bildung-start .title::after{
+    
+    background: #111;
+}
+
+/* Bildung Section */
+.bildung {
+    color: #111;
+    background: #fff;
+}
+.bildung .title::before{
+    background: #111;
+}
+.bildung .title::after{
+    content: "Schulbildung";
+    background: #fff;
+}
+.bildung .bildung-content .card{
+    width: calc(53% - 10px);
+    height: 250px;
+    background: #fff;
+    text-align: left;
+    border-radius: 6px;
+    border: 3px solid #111;
+    padding: 20px 25px;
+    margin-bottom: 50px;
+}
+.bildung .bildung-content .card .box{   
+    color: #111;
+}
+.bildung .bildung-content .card i{
+    font-size: 20px;
+    color: crimson;
+}
+.bildung .bildung-content .card .text{
+    font-size: 25px;
+    font-weight: 500;
+    margin: 10px 0 7px 0;
+}
 
 
 
