@@ -554,6 +554,11 @@ section .title::after{
     color: crimson;
     background: none;
 }
+#msg{
+    color: #61b752;
+    margin-top: 10px;
+    display: block;
+}
 
 /* Fußzeile */
 footer{
@@ -724,11 +729,17 @@ footer span a:hover{
         height: 350px;
         width: 350px;
     }
+    .bildung .bildung-content .card{
+        width: 100%;
+    }
 }
 
 @media (max-width: 991px){
     .max-width{
         padding: 0 50px;
+    }
+    .bildung .bildung-content .card{
+        width: 100%;
     }
 }
 
@@ -792,6 +803,9 @@ footer span a:hover{
         width: calc(50% - 10px);
         margin-bottom: 20px;
     }
+    .bildung .bildung-content .card{
+        width: 100%;
+    }
     .skills .skills-content .column,
     .contact .contact-content .column{
         width: 100%;
@@ -813,6 +827,9 @@ footer span a:hover{
         font-size: 20px;
     }
     .education .education-content .card{
+        width: 100%;
+    }
+    .bildung .bildung-content .card{
         width: 100%;
     }
 }
