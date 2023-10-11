@@ -11,4 +11,3 @@ Die Webseite wird mittels GitHub Pages  als Github Account Webseite bereitgestel
 - Es steht ein aktueller Lebenslauf zum Download bereit.
 - Zur weiteren Veranschaulichung von erworbenen Fähigkeiten stehen verlinkungen auf Github Repositories mit Programmier Projekten zur Verfügung.
 - Die Webseite wurde für die Verwendung auf Smartphone Geräten und Tablets angepasst. Dabei wird ein vereinfachtes Menü angezeigt mit welcher die Navigation auf kleinen Bildschirmen ermöglicht wird. Außerdem werden die Elemente der Webseite je nach Bildschrimgröße neu angeordnet.
--   
